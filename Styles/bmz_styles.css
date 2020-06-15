@@ -33,7 +33,9 @@ a, p, div, #copy {
 	text-decoration: none;
 	text-align: left;
 }
-
+#brandon {
+	margin: 5vh 0 0 1vw;
+}
 #copy {
 	padding-top: 5vh;
 	padding-bottom: 6.5vh;
