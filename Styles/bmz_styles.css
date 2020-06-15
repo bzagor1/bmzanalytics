@@ -34,7 +34,7 @@ a, p, div, #copy {
 	text-align: left;
 }
 #brandon {
-	margin: 5vh 0 0 1vw;
+	margin: 3vh 0 0 1vw;
 }
 #copy {
 	padding-top: 5vh;
@@ -46,6 +46,10 @@ a, p, div, #copy {
 }
 .title {
 	font-weight: bold;
+}
+#bmz {
+	display: flex;
+	float: top;
 }
 .buttons a {
 	line-height: 2em;
