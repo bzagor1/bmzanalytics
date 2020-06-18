@@ -1,1 +1,1 @@
-# bmzanalytics
+bmzanalytics.com
