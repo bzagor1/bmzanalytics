@@ -12,6 +12,12 @@ body {
 .row, .col, .container-fluid {
 	margin: 0; padding: 0;
 }
+.center {
+	text-align: center;
+}
+#bigLogo {
+	padding-top: 35vh;
+}
 #mobile {
 	width: 82.5vw;
 }
@@ -66,6 +72,12 @@ a:hover {
 @media (min-width: 1200px) {
 	.col, [class*="col-"] {
 		margin: 0; padding: 3vh 3vw;
+	}
+	#bigLogo {
+		width:25vw;
+	}
+	#enter {
+		font-size: 2.25vh;
 	}
 	#home, #priv, #serv, #cli, #cont {
 		width: 30vw;
