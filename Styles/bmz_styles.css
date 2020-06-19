@@ -16,7 +16,7 @@ body {
 	text-align: center;
 }
 #bigLogo {
-	padding-top: 35vh;
+	padding-top: 25vh;
 }
 #mobile {
 	width: 82.5vw;
@@ -73,6 +73,9 @@ a:hover {
 	.col, [class*="col-"] {
 		margin: 0; padding: 3vh 3vw;
 	}
+	#indexHeight {
+		height: 85vh;
+	}
 	#bigLogo {
 		width:25vw;
 	}
@@ -96,6 +99,9 @@ a:hover {
 	.col, [class*="col-"] {
 		margin: 0; padding: 3vh 3vw;
 	}
+	#indexHeight {
+		height: 85vh;
+	}
 	#home, #priv, #serv, #cli, #cont {
 		width: 30vw;
 	}
@@ -115,6 +121,9 @@ a:hover {
 	}
 	body {
 		margin: 4vh 5vw;
+	}
+	#indexHeight {
+		height: 92vh;
 	}
 	#logo {
 		width: 20vw;
@@ -138,6 +147,12 @@ a:hover {
 	}
 	.col, [class*="col-"] {
 		margin: 0; padding: 3vh 3vw;
+	}
+	#indexHeight {
+		height: 95vh;
+	}
+	#bigLogo {
+		padding-top: 32.5vh;
 	}
 	#home, #priv {
 		width: 55vw;
@@ -180,6 +195,12 @@ a:hover {
 	}
 	.col, [class*="col-"] {
 		margin: 0; padding: 3vh 3vw;
+	}
+	#indexHeight {
+		height: 94vh;
+	}
+	#bigLogo {
+		padding-top: 30vh;
 	}
 	#home {
 		width: 87.5vw;
