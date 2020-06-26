@@ -67,6 +67,9 @@ body {
 .enterLogo {
 	height: 92.5vh;
 }
+#enterLogo {
+	padding-top: 20vh;
+}
 #enter {
 	font-size: 2.25vh;
 }
