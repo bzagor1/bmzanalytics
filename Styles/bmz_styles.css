@@ -5,6 +5,9 @@
 .scrolling-wrapper, .card, .row, .col, .navbar, .nav, img, .img-fluid {
 	margin: 0; padding: 0; border: none;
 }
+.img-fluid {
+	display: block;
+}
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	letter-spacing: 0.03vw;
