@@ -84,14 +84,14 @@ body {
 		height: 85vh;
 	}
 	.col-12.col-sm-10.col-xl-8 {
-		padding: 5vh 5vw;
+		padding: 5vh 0;
 	}
 	.img-fluid {
 		width: 100%;
 		height: auto;
 	}
 	#subtitle {
-		padding-top: 7.5vh;
+		padding-top: 3.5vh;
 		font-size: 3.25vw;
 		letter-spacing: 0.75vw;
 	}
@@ -117,7 +117,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 	
 	.col-12.col-sm-10.col-xl-8 {
-		padding: 3vh 3vw;
+		padding: 3vh 0;
 	}
 	.img-fluid {
 		width: 90%;
@@ -140,6 +140,7 @@ body {
 	#small, #xsmall, #littleBMZ {display: none;}
 
 	#copy {
+		padding-top: 3vh;
 		font-size: .8em;
 	}
 }
@@ -152,7 +153,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.col-12.col-sm-10.col-xl-8 {
-		padding: 3vh 3vw;
+		padding: 3vh 0;
 	}
 	.img-fluid {
 		width: 100%;
