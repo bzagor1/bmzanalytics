@@ -7,8 +7,7 @@
 }
 .img-fluid {
 	display: block;
-		width: 75%;
-		height: auto;
+	height: auto;
 	}
 
 body {
@@ -19,7 +18,15 @@ body {
 	text-decoration: none;
 	text-align: left;
 }
-
+.scrolling-wrapper {
+	height: 100vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	scroll-margin: 0;
+    scroll-padding: 0;
+	scroll-snap-type: x mandatory;
+}
 .card {
 	background-color: #666655;
 	overflow-x: hidden;
@@ -35,15 +42,7 @@ body {
 #nav, a, a:hover{
 	color: #658621;
 }
-.scrolling-wrapper {
-	height: 100vh;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-	scroll-margin: 0;
-    scroll-padding: 0;
-	scroll-snap-type: x mandatory;
-}
+
 .navbar {
 	line-height: 1.65;
 }
@@ -89,7 +88,9 @@ body {
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 5vh 0;
 	}
-
+	.img-fluid {
+		width: 70%;
+	}
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
 		font-size: 2.5vw;
@@ -98,7 +99,7 @@ body {
 	#non-random, #service {
 		font-size: 1.65vw;
 	}
-	#small, #xsmall, #littleBMZ {display: none;}
+	#small, #xsmall {display: none;}
 
 	.navbar {
 		padding: 1.5vh 0 0 .5vw;
@@ -119,12 +120,15 @@ body {
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 3vh 0;
 	}
-
+	.img-fluid {
+		width: 72.5%;
+	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
 		font-size: 1.45vw;
 		font-weight: 400;
 		letter-spacing: 0.35vw;
+		line-height: 2;
 	}
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
@@ -134,7 +138,7 @@ body {
 	#non-random, #service {
 		font-size: 1.5vw;
 	}
-	#small, #xsmall, #littleBMZ {display: none;}
+	#small, #xsmall {display: none;}
 
 	#copy {
 		padding-top: 3vh;
@@ -151,14 +155,17 @@ body {
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 3vh 0;
 	}
-
+	.img-fluid {
+		width: 82.5%;
+	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
 		font-size: 1.7vw;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
+		line-height: 2;
 	}
-	#small, #xsmall, #littleBMZ {display: none;}
+	#small, #xsmall {display: none;}
 
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
@@ -179,18 +186,22 @@ body {
 	.col-12.col-sm-10.col-xl-8 {
 		padding: 3vh 0;
 	}
+	.img-fluid {
+		width: 100%;
+	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
 		font-size: 1.9vw;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
+		line-height: 1.95;
 	}
 	#subtitle {
 		font-size: 4.5vw;
 		letter-spacing: 0.75vw;
 		padding: 7.5vh 1vw 2vh 1.5vw;
 	}
-	#small, #xsmall, #littleBMZ {display: none;}
+	#small, #xsmall {display: none;}
 
 	#non-random {font-size: 2.5vw;}
 
@@ -218,29 +229,24 @@ body {
 		width: 100%;
 		height: auto;
 	}
-	#normal, #small {display: none;}
+	#small {display: none;}
 
 	.navbar {
-		padding: 0 0 0 3vw;
-		font-size: 2.5vw;
+		padding: 2vh 0 0 1vw;
+		font-size: 2.75vw;
 		font-weight: 400;
 		letter-spacing: 0.1vw;
-		line-height: 1.85;
+		line-height: 1.95;
 	}
 	#subtitle {
 		font-size: 6.5vw;
 		letter-spacing: 0.75vw;
-		padding: 5vh 0 4vh 0;
-		display: flex;
-		justify-content: space-between;
-	}
-	#littleBMZ {
-		width: 27.5vw;
-		padding-right: 5vw;
+		padding: 5vh 0 1vh 0;
 	}
 
 	#copy {
-		line-height: 2;
+		padding-top: 3vh;
+		line-height: 1.7;
 	}
 	#non-random, #s-xl {display: none;}
 }
