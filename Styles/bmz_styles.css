@@ -25,7 +25,6 @@ body {
 	white-space: nowrap;
 	scroll-margin: 0;
     scroll-padding: 0;
-	scroll-snap-type: x mandatory;
 }
 .card {
 	background-color: #666655;
