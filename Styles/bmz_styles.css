@@ -30,7 +30,6 @@ body {
 	background-color: #666655;
 	overflow-x: hidden;
 	overflow-y: scroll;
-	scroll-snap-align: end;
 }
 
 .col-12.col-sm-10.col-xl-8 {
