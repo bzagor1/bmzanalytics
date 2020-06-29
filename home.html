@@ -4,6 +4,12 @@
 
 <head>
     <meta charset="utf-8">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta id="extViewportMeta" name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -17,11 +23,32 @@
 </head>
 
 <body>
+
+
+    <script>
+        document.body.addEventListener('touchmove', function (event) {
+            event.preventDefault();
+        }, {
+            passive: false,
+            useCapture: false
+        });
+
+        window.onresize = function () {
+            $(document.body).width(window.innerWidth).height(window.innerHeight);
+        }
+
+        $(function () {
+            window.onresize();
+        });
+    </script>
+
+
+
     <div class="scrolling-wrapper">
 
         <div class="card">
             <div class="row">
-                <div class="col-sm-1 col-xl-2"  id="practice"></div>
+                <div class="col-sm-1 col-xl-2" id="practice"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
 
                     <div class="row" id="normal">
@@ -45,8 +72,8 @@
 
 
                     <div class="row" id="subtitle">
-                            OUR PRACTICE
-                            
+                        OUR PRACTICE
+
                     </div>
                     <div class="row">
                         <div class="col" id="copy">
@@ -92,7 +119,7 @@
             </div>
         </div>
 
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="privacy"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -119,7 +146,7 @@
 
                     <div class="row" id="subtitle">
                         PRIVACY
-                        
+
                     </div>
                     <div class="row">
                         <div class="col" id="copy">
@@ -143,7 +170,7 @@
             </div>
         </div>
 
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="who"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -169,7 +196,7 @@
 
                     <div class="row" id="subtitle">
                         BMZ is...
-                        
+
                     </div>
                     <div class="row">
                         <div class="col" id="copy">
@@ -217,7 +244,7 @@
             </div>
         </div>
 
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="services"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -244,7 +271,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -276,7 +303,7 @@
 
         <!-- ANALYTICAL -->
         <!-- ANALYTICAL -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="analytical"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -303,7 +330,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -351,7 +378,7 @@
 
         <!-- STUDY -->
         <!-- STUDY -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="study"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -379,7 +406,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -404,7 +431,7 @@
 
         <!-- CALCULATION -->
         <!-- CALCULATION -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="calculation"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -431,7 +458,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -456,7 +483,7 @@
 
         <!-- QUESTIONNAIRE -->
         <!-- QUESTIONNAIRE -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="questionnaire"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -483,7 +510,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -503,7 +530,7 @@
 
         <!-- SAS -->
         <!-- SAS -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="sas"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -530,7 +557,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -552,7 +579,7 @@
 
         <!-- STATISTICAL -->
         <!-- STATISTICAL -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="statistical"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -579,7 +606,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -603,7 +630,7 @@
 
         <!-- GRAPHICAL -->
         <!-- GRAPHICAL -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="graphical"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -630,7 +657,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -650,7 +677,7 @@
 
         <!-- DATA -->
         <!-- DATA -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="data"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -678,7 +705,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -701,7 +728,7 @@
 
         <!-- MEDICAL -->
         <!-- MEDICAL -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="medical"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -728,7 +755,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -750,7 +777,7 @@
 
         <!-- SPATIAL -->
         <!-- SPATIAL -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="spatial"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -777,7 +804,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -800,7 +827,7 @@
 
         <!-- FTP -->
         <!-- FTP -->
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="ftp"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -827,7 +854,7 @@
 
                     <div class="row" id="subtitle">
                         SERVICES
-                        
+
                     </div>
                     <div class="row">
                         <div class="col-12" id="copy">
@@ -848,7 +875,7 @@
 
 
 
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="clients"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -873,10 +900,10 @@
                     </div>
 
 
-                    <div class="row"  id="subtitle">
-                            CLIENTS
-                            <a class="s-xl" id="non-random">&nbsp;(non-random sample)</a>
-                            
+                    <div class="row" id="subtitle">
+                        CLIENTS
+                        <a class="s-xl" id="non-random">&nbsp;(non-random sample)</a>
+
                     </div>
                     <div class="row" id="s-xl">
                         <div class="col" id="copy">
@@ -939,7 +966,7 @@
             </div>
         </div>
 
-        <div class="card" >
+        <div class="card">
             <div class="row">
                 <div class="col-sm-1 col-xl-2" id="contact"></div>
                 <div class="col-12 col-sm-10 col-xl-8">
@@ -966,7 +993,7 @@
 
                     <div class="row" id="subtitle">
                         CONTACT US
-                        
+
                     </div>
                     <div class="row">
                         <div class="col" id="copy">
