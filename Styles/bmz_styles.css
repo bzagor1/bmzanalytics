@@ -27,6 +27,7 @@ body {
 	scroll-margin: 0;
 	scroll-padding: 0;
 	-webkit-overflow-scrolling: touch;
+	overscroll-behavior-y: none;
 }
 .card {
 	background-color: #666655;
