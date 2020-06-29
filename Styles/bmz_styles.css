@@ -17,19 +17,20 @@ body {
 	color: #333333;
 	text-decoration: none;
 	text-align: left;
-	overscroll-behavior: none;
 }
 .scrolling-wrapper {
 	height: 100vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
+	scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 }
 .card {
 	background-color: #666655;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	scroll-snap-align: end;
 }
 
 .col-12.col-sm-10.col-xl-8 {
