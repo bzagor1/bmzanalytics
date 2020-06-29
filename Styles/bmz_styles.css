@@ -24,7 +24,6 @@ body {
 	overflow-y: hidden;
 	white-space: nowrap;
 	scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
 }
 .card {
 	background-color: #666655;
