@@ -24,12 +24,14 @@ body {
 	overflow-y: hidden;
 	white-space: nowrap;
 	scroll-margin: 0;
-    scroll-padding: 0;
+	scroll-padding: 0;
+	-webkit-overflow-scrolling: touch;
 }
 .card {
 	background-color: #666655;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 .col-12.col-sm-10.col-xl-8 {
