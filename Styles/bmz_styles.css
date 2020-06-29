@@ -20,7 +20,7 @@ body {
 }
 .scrolling-wrapper {
 	height: 100vh;
-	overflow-x: auto;
+	overflow-x: scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
 	scroll-snap-type: x mandatory;
@@ -28,7 +28,7 @@ body {
 .card {
 	background-color: #666655;
 	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-y: scroll;
 	scroll-snap-align: end;
 }
 
