@@ -17,6 +17,7 @@ body {
 	color: #333333;
 	text-decoration: none;
 	text-align: left;
+	overscroll-behavior: none;
 }
 .scrolling-wrapper {
 	height: 100vh;
