@@ -251,6 +251,10 @@ body {
 		line-height: 1.7;
 	}
 	#non-random, #s-xl {display: none;}
+
+	#enterLogo {
+		padding-top: 5vh;
+	}
 }
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
