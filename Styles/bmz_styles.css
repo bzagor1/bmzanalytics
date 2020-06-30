@@ -47,7 +47,7 @@ body {
 	line-height: 1.65;
 }
 .nav .current {
-	border: .25px solid black;
+	border: .25px solid #666655;
 }
 .navLink:visited, .navLink:link, .navLink:active, 
 .navLink:hover {
