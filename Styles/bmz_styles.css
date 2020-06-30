@@ -46,6 +46,10 @@ body {
 .navbar {
 	line-height: 1.65;
 }
+.nav .current {
+	background-color: hsl(57, 39%, 89%);
+}
+
 #copy {
 	background-color: #E7E5BC;
 	white-space: normal;
