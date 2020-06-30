@@ -47,9 +47,10 @@ body {
 	line-height: 1.65;
 }
 .nav .current {
-	background-color: hsl(57, 39%, 89%);
+	border: .25px solid black;
 }
-.navLink:visited, .navLink:link, .navLink:active, .navLink:hover {
+.navLink:visited, .navLink:link, .navLink:active, 
+.navLink:hover {
     text-decoration: none;
     }
 
