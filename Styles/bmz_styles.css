@@ -101,8 +101,8 @@ body {
 	}
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
-		font-size: 2.5vw;
-		letter-spacing: 0.5vw;
+		font-size: 2.25vw;
+		letter-spacing: 0.45vw;
 	}
 	#non-random, #service {
 		font-size: 1.65vw;
@@ -133,14 +133,14 @@ body {
 	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 1.45vw;
+		font-size: 1.25vw;
 		font-weight: 400;
 		letter-spacing: 0.35vw;
-		line-height: 2;
+		line-height: 1.75;
 	}
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
-		font-size: 2.5vw;
+		font-size: 2.25vw;
 		letter-spacing: 0.35vw;
 	}
 	#non-random, #service {
@@ -168,16 +168,16 @@ body {
 	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 1.7vw;
+		font-size: 1.5vw;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
-		line-height: 2;
+		line-height: 1.75;
 	}
 	#small, #xsmall {display: none;}
 
 	#subtitle {
 		padding: 7.5vh 0 3vh 1.75vw;
-		font-size: 4.5vw;
+		font-size: 3.25vw;
 		letter-spacing: 0.75vw;
 	}
 	#non-random {font-size: 2.5vw;}
@@ -199,13 +199,13 @@ body {
 	}
 	.navbar {
 		padding: 3vh 0 0 .5vw;
-		font-size: 2.1vw;
+		font-size: 1.85vw;
 		font-weight: 400;
 		letter-spacing: 0.3vw;
-		line-height: 1.95;
+		line-height: 1.75;
 	}
 	#subtitle {
-		font-size: 4.5vw;
+		font-size: 4vw;
 		letter-spacing: 0.75vw;
 		padding: 7.5vh 1vw 2vh 1.5vw;
 	}
@@ -241,13 +241,13 @@ body {
 
 	.navbar {
 		padding: 2vh 0 0 1vw;
-		font-size: 3.5vw;
+		font-size: 2.5vw;
 		font-weight: 400;
 		letter-spacing: 0.1vw;
-		line-height: 1.95;
+		line-height: 1.75;
 	}
 	#subtitle {
-		font-size: 6.5vw;
+		font-size: 5vw;
 		letter-spacing: 0.75vw;
 		padding: 5vh 0 1vh 0;
 	}
