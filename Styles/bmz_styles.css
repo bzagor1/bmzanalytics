@@ -2,7 +2,7 @@
 	border: solid black .1px;
 }*/
 
-.scrolling-wrapper, .card, .row, .col, .navbar, .nav, img, .img-fluid {
+.scrolling-wrapper, .card, .row, .col [class*='col-'], .navbar, .nav, img, .img-fluid {
 	margin: 0; padding: 0; border: none;
 }
 .img-fluid {
@@ -52,7 +52,8 @@ body {
 .navLink:visited, .navLink:link, .navLink:active, 
 .navLink:hover {
     text-decoration: none;
-    }
+	}
+	
 
 #copy {
 	background-color: #E7E5BC;
@@ -115,6 +116,15 @@ body {
 		font-weight: 400;
 		letter-spacing: 0.25vw;
 	}
+	#toWeek {
+		width: 35vw;
+	}
+	#toWeek {
+		width: 40vw;
+	}
+	img#dailyImg, #caption {
+		width: 30vw;
+	}
 
 }
 /* XL XL XL XL XL XL XL XL XL XL XL XL */
@@ -151,6 +161,13 @@ body {
 	#copy {
 		padding-top: 3vh;
 	}
+	#toWeek {
+		width: 50vw;
+	}
+	img#dailyImg, #caption {
+		width: 35vw;
+		font-size: 1.15vw;
+	}
 }
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
 /* LARGE LARGE LARGE LARGE LARGE LARGE */
@@ -182,6 +199,16 @@ body {
 	}
 	#non-random {font-size: 2.5vw;}
 
+	#toWeek, #dailyImg {
+		font-size: .85vw;
+	}
+	#toWeek {
+		width: 50vw;
+	}
+	img#dailyImg, #caption {
+		width: 50vw;
+		font-size: 1.8vh;
+	}
 }
 /* MED MED MED MED MED MED MED MED MED */
 /* MED MED MED MED MED MED MED MED MED */
@@ -213,6 +240,16 @@ body {
 
 	#non-random {font-size: 2.5vw;}
 
+	#toWeek, #dailyImg {
+		font-size: .85vw;
+	}
+	#toWeek {
+		width: 55vw;
+	}
+	img#dailyImg, #caption {
+		width: 55vw;
+		font-size: 1.7vh;
+	}
 
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
@@ -261,6 +298,15 @@ body {
 	#enterLogo {
 		padding-top: 5vh;
 	}
+
+	#toWeek {
+		width: 87.5vw;
+	}
+	img#dailyImg, #caption {
+		width: 87.5vw;
+		font-size: 1.85vh;
+	}
+
 }
 /* XS XS XS XS XS XS XS XS XS */
 /* XS XS XS XS XS XS XS XS XS */
