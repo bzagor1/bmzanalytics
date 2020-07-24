@@ -116,7 +116,7 @@ body {
 		font-weight: 400;
 		letter-spacing: 0.25vw;
 	}
-	#toWeek {
+	img#toWeek {
 		height: auto;
 		max-width: 40vw;
 	}
@@ -159,7 +159,7 @@ body {
 	#copy {
 		padding-top: 3vh;
 	}
-	#toWeek {
+	img#toWeek {
 		width: 50vw;
 	}
 	img#dailyImg, #caption {
@@ -197,10 +197,10 @@ body {
 	}
 	#non-random {font-size: 2.5vw;}
 
-	#toWeek, #dailyImg {
+	img#toWeek, img#dailyImg {
 		font-size: .85vw;
 	}
-	#toWeek {
+	img#toWeek {
 		width: 50vw;
 	}
 	img#dailyImg, #caption {
@@ -238,10 +238,10 @@ body {
 
 	#non-random {font-size: 2.5vw;}
 
-	#toWeek, #dailyImg {
+	img#toWeek, img#dailyImg {
 		font-size: .85vw;
 	}
-	#toWeek {
+	img#toWeek {
 		width: 55vw;
 	}
 	img#dailyImg, #caption {
@@ -297,7 +297,7 @@ body {
 		padding-top: 5vh;
 	}
 
-	#toWeek {
+	img#toWeek {
 		width: 87.5vw;
 	}
 	img#dailyImg, #caption {
