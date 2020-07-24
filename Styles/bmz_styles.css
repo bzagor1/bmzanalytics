@@ -307,7 +307,7 @@ body {
 	img#canada {
 		display: block;
 		height: auto;
-		max-width: 87.5vw;
+		width: 87.5vw;
 	}
 	img#dailyImg, #caption {
 		width: 87.5vw;
