@@ -116,7 +116,8 @@ body {
 		font-weight: 400;
 		letter-spacing: 0.25vw;
 	}
-	img#toWeek {
+	img#canada {
+		display: block;
 		height: auto;
 		max-width: 40vw;
 	}
@@ -159,8 +160,10 @@ body {
 	#copy {
 		padding-top: 3vh;
 	}
-	img#toWeek {
-		width: 50vw;
+	img#canada {
+		display: block;
+		height: auto;
+		max-width: 50vw;
 	}
 	img#dailyImg, #caption {
 		width: 35vw;
@@ -197,11 +200,13 @@ body {
 	}
 	#non-random {font-size: 2.5vw;}
 
-	img#toWeek, img#dailyImg {
+	img#canada, img#dailyImg {
 		font-size: .85vw;
 	}
-	img#toWeek {
-		width: 50vw;
+	img#canada {
+		display: block;
+		height: auto;
+		max-width: 50vw;
 	}
 	img#dailyImg, #caption {
 		width: 50vw;
@@ -238,11 +243,13 @@ body {
 
 	#non-random {font-size: 2.5vw;}
 
-	img#toWeek, img#dailyImg {
+	img#canada, img#dailyImg {
 		font-size: .85vw;
 	}
-	img#toWeek {
-		width: 55vw;
+	img#canada {
+		display: block;
+		height: auto;
+		max-width: 55vw;
 	}
 	img#dailyImg, #caption {
 		width: 55vw;
@@ -297,8 +304,10 @@ body {
 		padding-top: 5vh;
 	}
 
-	img#toWeek {
-		width: 87.5vw;
+	img#canada {
+		display: block;
+		height: auto;
+		max-width: 87.5vw;
 	}
 	img#dailyImg, #caption {
 		width: 87.5vw;
