@@ -117,9 +117,7 @@ body {
 		letter-spacing: 0.25vw;
 	}
 	#toWeek {
-		width: 35vw;
-	}
-	#toWeek {
+		display: block;
 		width: 40vw;
 	}
 	img#dailyImg, #caption {
