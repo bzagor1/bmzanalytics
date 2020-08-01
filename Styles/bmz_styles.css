@@ -63,7 +63,7 @@ body {
 	line-height: 1.75;
 }
 
-#subtitle {
+#subtitle, #update {
 	color: #658621;
 	align-items: center;
 }
@@ -101,9 +101,13 @@ body {
 		width: 70%;
 	}
 	#subtitle {
-		padding: 7.5vh 0 3vh 1.75vw;
+		padding: 7.5vh 0 1.5vh 1.75vw;
 		font-size: 2.25vw;
 		letter-spacing: 0.45vw;
+	}
+	#update {
+		font-size: 1.25vw;
+		padding: 0 0 2vh 1.75vw;
 	}
 	#non-random, #service {
 		font-size: 1.65vw;
@@ -148,9 +152,13 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
-		padding: 7.5vh 0 3vh 1.75vw;
+		padding: 7.5vh 0 1.25vh 1.75vw;
 		font-size: 2.25vw;
-		letter-spacing: 0.35vw;
+		letter-spacing: 0.45vw;
+	}
+	#update {
+		font-size: 1.4vw;
+		padding: 0 0 2vh 1.75vw;
 	}
 	#non-random, #service {
 		font-size: 1.5vw;
@@ -194,9 +202,13 @@ body {
 	#small, #xsmall {display: none;}
 
 	#subtitle {
-		padding: 7.5vh 0 3vh 1.75vw;
+		padding: 7.5vh 0 1.5vh 1.75vw;
 		font-size: 3.25vw;
 		letter-spacing: 0.75vw;
+	}
+	#update {
+		font-size: 1.75vw;
+		padding: 0 0 2vh 1.75vw;
 	}
 	#non-random {font-size: 2.5vw;}
 
@@ -235,9 +247,13 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
+		padding: 7.5vh 1vw 1.5vh 1.5vw;
 		font-size: 4vw;
 		letter-spacing: 0.75vw;
-		padding: 7.5vh 1vw 2vh 1.5vw;
+	}
+	#update {
+		font-size: 2.5vw;
+		padding: 0 0 2vh 1.75vw;
 	}
 	#small, #xsmall {display: none;}
 
@@ -289,9 +305,14 @@ body {
 		line-height: 1.75;
 	}
 	#subtitle {
+		padding: 5vh 0 1vh 0;
 		font-size: 5vw;
 		letter-spacing: 0.75vw;
-		padding: 5vh 0 1vh 0;
+		
+	}
+	#update {
+		font-size: 3vw;
+		padding: 0 0 2vh 0;
 	}
 
 	#copy {
